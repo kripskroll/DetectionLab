@@ -2,7 +2,7 @@
 
 logger:
   hosts:
-    w.w.w.w:
+    10.8.39.231:
       ansible_user: vagrant
       ansible_password: vagrant
       ansible_port: 22
@@ -11,14 +11,14 @@ logger:
 
 dc:
   hosts:
-    x.x.x.x:
+    10.8.39.178:
 
 wef:
   hosts:
-    y.y.y.y:
+    10.8.39.182:
 
 win10:
   hosts:
-    z.z.z.z:
+    10.8.39.120:
 
 
